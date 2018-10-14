@@ -1,6 +1,6 @@
 {
   "name": "xero-node",
-  "version": "3.0.13",
+  "version": "4.0.0",
   "description": "NodeJS Client for the Xero API, supporting Public, Private and Partner Apps",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,10 @@
     "create-key": "node ./.circleci/create_private_key.js"
   },
   "author": "Xero <api@xero.com>",
-  "repository": "https://github.com/XeroAPI/xero-node.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XeroAPI/xero-node.git"
+  },
   "license": "MIT",
   "typings": "lib/index.d.ts",
   "dependencies": {
@@ -39,5 +42,9 @@
     "tslint": "^5.9.1",
     "typedoc": "^0.11.1",
     "typescript": "^2.7.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/XeroAPI/xero-node/issues"
+  },
+  "homepage": "https://github.com/XeroAPI/xero-node#readme"
 }
