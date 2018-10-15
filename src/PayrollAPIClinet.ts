@@ -13,7 +13,7 @@ export class PayrollAPIClient extends BaseAPIClient {
 				endpoint = endpoint + '/' + args.EmployeeID;
 			}
 
-			return this.oauth1Client.get<Response>(endpoint);
+			return this.oauth1Client.get<object>(endpoint);
 		}
 	};
 }
